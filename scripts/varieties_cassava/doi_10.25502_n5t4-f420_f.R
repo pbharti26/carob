@@ -1,6 +1,7 @@
 # R script for "carob"
 # license: GPL (>=3)
 
+
 ## ISSUES
 #1. out of bounds: plot_area (0, 12000)
 
@@ -13,7 +14,7 @@ Evaluation of yield benefits of certified cassava seed.
 "
 
 	uri <- "doi:10.25502/n5t4-f420/f"
-	group <- "varieties"
+	group <- "varieties_cassava"
 	ff  <- carobiner::get_data(uri, path, group)
 
 
